@@ -32,5 +32,5 @@ docker run -d \
     -v $DIR/php.ini:/etc/php.ini \
     --restart=always \
     --name $NAME \
-    seti/php52
+    diekeulect/php52-webserver
 ```
